@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remove-project name="platform/prebuilts/go/darwin-x86" />
-  <project name="bigsuperprojects/android_hardware_ril" path="hardware/ril-mickybart" revision="cm-14.0_test" />
+<!--  <project name="bigsuperprojects/android_hardware_ril" path="hardware/ril-mickybart" revision="cm-14.0_test" /> -->
   <project name="bigsuperprojects/android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="github" revision="cm-14.0" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
   <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-14.1" />
