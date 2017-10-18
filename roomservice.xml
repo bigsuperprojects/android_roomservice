@@ -14,8 +14,8 @@
   <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
   <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" />
   <project name="OmniRom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-7.1" />
-  <project name="OmniRom/android_external_busybox" path="external/busybox" remote="github" revision="android-7.1" />
-<!--  <project name="bigsuperprojects/android_device_htc_msm8660-common" path="device/htc/msm8660-common" remote="github" revision="cm-14.1" />
+<!--  <project name="OmniRom/android_external_busybox" path="external/busybox" remote="github" revision="android-7.1" />
+  <project name="bigsuperprojects/android_device_htc_msm8660-common" path="device/htc/msm8660-common" remote="github" revision="cm-14.1" />
   <project name="bigsuperprojects/android_device_htc_shooter-common" path="device/htc/shooter-common" remote="github" revision="cm-14.1" />
   <project name="bigsuperprojects/android_device_htc_shootervm" path="device/htc/shootervm" remote="github" revision="cm-14.1" /> -->
   <project name="bigsuperprojects/android_device_htc_shooter" path="device/htc/shooter" remote="github" revision="cm-14.1" />
