@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="platform/prebuilts/go/darwin-x86" />
-  <project name="bigsuperprojects/android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-14.1" />
-  <project name="bigsuperprojects/android_device_htc_a5ul" path="device/htc/a5ul" remote="github" revision="cm-14.0_test" />
-  <project name="bigsuperprojects/android_device_htc_a5dwg" path="device/htc/a5dwg" remote="github" revision="cm-14.0_test" />
-  <project name="bigsuperprojects/android_device_htc_a5-common" path="device/htc/a5-common" remote="github" revision="cm-14.0_tmp" />
-  <project name="jackpotclavin/Android-Blob-Utility" path="external/android-blob-utility" remote="github" revision="master" />
-  <project name="bigsuperprojects/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-14.0_test" />
-  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
-  <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
-  <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
-  <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" />
-  <project name="OmniRom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-7.1" />
-<!--  <project name="OmniRom/android_external_busybox" path="external/busybox" remote="github" revision="android-7.1" />
-  <project name="bigsuperprojects/android_device_htc_msm8660-common" path="device/htc/msm8660-common" remote="github" revision="cm-14.1" />
-  <project name="bigsuperprojects/android_device_htc_shooter-common" path="device/htc/shooter-common" remote="github" revision="cm-14.1" />
-  <project name="bigsuperprojects/android_device_htc_shootervm" path="device/htc/shootervm" remote="github" revision="cm-14.1" /> -->
-  <project name="bigsuperprojects/android_device_htc_shooter" path="device/htc/shooter" remote="github" revision="cm-14.1" />
-  <project name="bigsuperprojects/android_kernel_htc_msm8960" path="kernel/htc/msm8960" remote="github" revision="cm-14.1" />
+<project name="bigsuperprojects/android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="github" revision="android-7.1-mrom" />
+<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
+<project name="bigsuperprojects/android_device_htc_a5" path="device/htc/a5" remote="github" revision="android-7.1-mrom" />
+<project name="bigsuperprojects/android_device_htc_a5-common" path="device/htc/a5-common" remote="github" revision="android-7.1-mrom" />
+<project name="bigsuperprojects/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="android-7.1-mrom" />
+<remove-project name="android_bootable_recovery" />
+<project name="multirom-dev/Team-Win-Recovery-Project" path="bootable/recovery" remote="github" revision="android-7.1-mrom" />
+<project name="multirom-g3/multirom" path="system/extras/multirom" remote="github" revision="master" />
+<project name="multirom-dev/multirom/adbd" path="system/extras/multirom/adbd" remote="github" revision="master" />
+<project name="multirom-dev/multirom/kexec-tools" path="system/extras/multirom/kexec-tools" remote="github" revision="master" />
+<project name="multirom-dev/libbootimg" path="system/extras/libbootimg" remote="github" revision="master" />
+<project name="android_external_stlport" path="external/stlport" remote="omnirom" revision="android-7.1" />
 </manifest>
