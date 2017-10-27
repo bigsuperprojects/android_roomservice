@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="platform/prebuilts/go/darwin-x86" />
-  <project name="bigsuperprojects/android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-14.1" />
-  <project name="bigsuperprojects/android_device_htc_a5ul" path="device/htc/a5ul" remote="github" revision="cm-14.0_test" />
-  <project name="bigsuperprojects/android_device_htc_a5dwg" path="device/htc/a5dwg" remote="github" revision="cm-14.0_test" />
-  <project name="bigsuperprojects/android_device_htc_a5-common" path="device/htc/a5-common" remote="github" revision="cm-14.0_tmp" />
-  <project name="jackpotclavin/Android-Blob-Utility" path="external/android-blob-utility" remote="github" revision="master" />
-  <project name="bigsuperprojects/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-14.0_test" />
-  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
-  <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
-  <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
-  <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" />
-  <project name="OmniRom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-7.1" />
-<!--  <project name="OmniRom/android_external_busybox" path="external/busybox" remote="github" revision="android-7.1" />
-  <project name="bigsuperprojects/android_device_htc_msm8660-common" path="device/htc/msm8660-common" remote="github" revision="cm-14.1" />
-  <project name="bigsuperprojects/android_device_htc_shooter-common" path="device/htc/shooter-common" remote="github" revision="cm-14.1" />
-  <project name="bigsuperprojects/android_device_htc_shootervm" path="device/htc/shootervm" remote="github" revision="cm-14.1" /> -->
-  <project name="bigsuperprojects/android_device_htc_shooter" path="device/htc/shooter" remote="github" revision="cm-14.1" />
-  <project name="bigsuperprojects/android_kernel_htc_msm8960" path="kernel/htc/msm8960" remote="github" revision="cm-14.1" />
+  <project name="bigsuperprojects/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="ng-7.1" />
+  <project name="bigsuperprojects/android_device_htc_shooter" path="device/htc/shooter" remote="github" revision="ng-7.1" />
+  <project name="bigsuperprojects/android_kernel_htc_msm8960" path="kernel/htc/msm8960" remote="github" revision="ng-7.1" />
+  <project path="external/stlport" name="android_external_stlport" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio-caf" revision="ng-7.1-8960" />
+  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display-caf" revision="ng-7.1-8960" />
+  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media-caf" revision="ng-7.1-8960" />
 </manifest>
