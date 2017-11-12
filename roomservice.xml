@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="bigsuperprojects/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="shooter-o-8.0" />
+  <project name="bigsuperprojects/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="o-8.0" />
   <project name="bigsuperprojects/android_device_htc_shooter" path="device/htc/shooter" remote="github" revision="shooter-o-8.0" />
   <project name="bigsuperprojects/android_kernel_htc_msm8960" path="kernel/htc/msm8960" remote="github" revision="shooter-o-8.0" />
 </manifest>
